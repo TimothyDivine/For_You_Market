@@ -1,0 +1,586 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* navbar css */
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.carousel-inner img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+.color-white {
+  color: white;
+  border-color: white;
+}
+
+nav a {
+  scale: 0.9;
+  font-weight: 600;
+}
+
+nav button {
+  padding: 10px;
+}
+
+/* sliding */
+.slide-section h1 {
+  font-size: 3.5rem;
+  color: white;
+}
+
+.slide-section p {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.708);
+  font-weight: 500;
+}
+
+.title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  padding: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 15px;
+  width: 360px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.product:hover {
+  border: 4px solid limegreen;
+  scale: 1.1;
+}
+
+.product:hover .buy {
+  scale: 1.1;
+  opacity: 1;
+  background-color: mediumblue;
+  color: white;
+  animation: buy-button;
+  animation-duration: 1.3s;
+  animation-delay: 10ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes buy-button {
+  0% {
+    scale: 1;
+    background-color: limegreen;
+  }
+  50% {
+    scale: 1.3;
+    background-color: rgb(230, 196, 5);
+  }
+  100% {
+    scale: 1;
+    background-color: red;
+  }
+}
+
+
+.pimg {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.info {
+  display: grid;
+}
+
+.p {
+  background-color: red;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* our services */
+ul.custom-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul.custom-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+ul.custom-list li::before {
+  content: "✔"; /* Use any icon or symbol */
+  position: absolute;
+  left: 0;
+  color: green;
+  font-weight: bold;
+}
+
+#services {
+  display: flex;
+  gap: 2rem;
+  padding-left: 3%;
+  padding: 10px;
+  transition: 0.5s ease;
+}
+
+#services:hover {
+  background-color: rgb(2, 163, 2);
+}
+
+#services img {
+  width: 500px;
+  border-radius: 20px;
+}
+
+.text2 {
+  scale: 1.1;
+  margin-left: 8%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.box-container {
+  gap: 3rem;
+}
+
+.btn {
+  background-color: white;
+}
+
+.btn:hover {
+  background-color: limegreen;
+}
+
+
+
+#about {
+  color: rgba(10, 10, 10, 0.966);
+  display: flex;
+  justify-content: center;
+}
+#about .title {
+  font-weight: 800;
+  font-size: 3rem;
+}
+#about .about-text {
+  width: 50%;
+  justify-self: center;
+  padding: 0;
+}
+#about img {
+  width: 290px;
+  padding-top: 130px;
+}
+
+
+
+.firstlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(0, 79, 0);
+  margin-bottom: 40px;
+}
+
+#forYou{
+  background-color: limegreen;
+  margin-right: 20%;
+  margin-left: 20%;
+  color: white;
+  padding: 3%;
+  margin-top: 3%;
+  border-radius: 20px;
+} 
+
+
+.buy {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  margin-left: 10px;
+  scale: 1.1;
+  color: white;
+  opacity: 0;
+}
+
+.buy a {
+  text-decoration: none;
+  color: white;
+}
+
+.buy-container {
+  margin-left: 60%;
+}
+
+.email {
+  text-decoration: none;
+  color: white;
+}
+
+#foot a:hover {
+  color: limegreen;
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Carousel */
+.carousel-inner img {
+  width: 100%;
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+/* General Classes */
+.color-white {
+  color: white;
+  border-color: white;
+}
+
+nav a {
+  scale: 0.9;
+  font-weight: 600;
+}
+
+nav button {
+  padding: 10px;
+}
+
+/* Sliding Section */
+.slide-section h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.slide-section p {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+/* Product Container */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 15px;
+  max-width: 360px;
+  height: auto;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.product:hover {
+  border: 3px solid limegreen;
+  /* transform: scale(1.05); */
+}
+
+/* Services Section */
+#services {
+  display: flex;
+  gap: 2rem;
+  padding: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#services img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+/* Buy Button Animation */
+.buy {
+  font-family: Impact, sans-serif;
+  padding: 10px 15px;
+  border-radius: 10px;
+  scale: 1;
+  color: white;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.product:hover .buy {
+  opacity: 1;
+  background-color: mediumblue;
+}
+
+@keyframes buy-button {
+  0% { background-color: limegreen; }
+  50% { background-color: yellow; }
+  100% { background-color: red; }
+}
+
+/* Footer */
+#foot {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.5;
+  font-size: small;
+}
+#about {
+  color: rgba(10, 10, 10, 0.966);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+#about .title {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+#about .about-text {
+  width: 50%;
+  max-width: 600px;
+  padding: 0;
+}
+
+#about img {
+  width: 100%;
+  max-width: 290px;
+  padding-top: 50px;
+}
+#about {
+  color: rgba(10, 10, 10, 0.966);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+#about .title {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+#about .about-text {
+  width: 50%;
+  max-width: 600px;
+  padding: 0;
+}
+
+#about img {
+  width: 100%;
+  max-width: 290px;
+  padding-top: 50px;
+}
+
+/* Responsive Design */
+
+/* Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}  
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel-inner img {
+    height: 50vh;
+  }
+
+  .product {
+    width: 100%;
+    scale: 0.90;
+  }
+
+  #services {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .buy-container {
+    margin-left: 0;
+  }
+
+  #forYou {
+    margin: 10% auto;
+    padding: 5%;
+    width: 90%;
+  }
+
+
+
+  /* #about Mobile */
+  #about {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  #about .title {
+    font-size: 2rem;
+  }
+
+  #about .about-text {
+    width: 90%;
+  }
+
+  #about img {
+    padding-top: 20px;
+  }
+}
+
+/* Tablets (577px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel-inner img {
+    height: 70vh;
+  }
+
+  .product {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  #services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #forYou {
+    margin: 5% auto;
+    padding: 4%;
+    width: 80%;
+  }
+
+  /* #about Tablets */
+  #about {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  #about .title {
+    font-size: 2.2rem;
+  }
+
+  #about .about-text {
+    width: 80%;
+  }
+}
+
+/* Laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .carousel-inner img {
+    height: 75vh;
+  }
+
+  .product {
+    width: 45%;
+  }
+
+  #forYou {
+    width: 70%;
+    padding: 3%;
+  }
+
+  /* #about Laptops */
+  #about {
+    gap: 3rem;
+  }
+
+  #about .title {
+    font-size: 2.8rem;
+  }
+
+  #about .about-text {
+    width: 60%;
+  }
+}
+
+/* Large Screens (1025px and up) */
+@media (min-width: 1025px) {
+  .carousel-inner img {
+    height: 80vh;
+  }
+
+  .product {
+    width: 22%;
+  }
+
+  #forYou {
+    width: 60%;
+  }
+
+  /* #about Large Screens */
+  #about {
+    gap: 4rem;
+  }
+
+  #about .title {
+    font-size: 3rem;
+  }
+
+  #about .about-text {
+    width: 50%;
+  }
+}
