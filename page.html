@@ -26,10 +26,10 @@
     <link rel="shortcut" href="Green and White Organic Agriculture Logo_20250201_150324_0000.png">
   </head>
   <!-- BODY SECTION -->
-  <body>
+  <body class="main">
     <!-- NAVIGATION BARS -->
     <header>
-      <img
+      <img id="top"
         src="assets\logo-WhatsApp Image 2025-02-01 at 15.04.51_9eaccc3b.jpg"
         alt="logo"
         style="width: 6rem" style="background-color: black;"
@@ -49,7 +49,7 @@
           </form>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" id="myNav">
         <div class="container-fluid">
           <button
             class="navbar-toggler"
@@ -134,6 +134,7 @@
                 style="opacity: 70%"
               />
               <div
+              id="myHead"
                 class="carousel-caption d-none d-md-block"
                 style="padding-bottom: 8rem"
               >
@@ -227,10 +228,10 @@
               <h3>Plantain</h3>
               <p>
                  ForYouStore
-                 <p><b>5,000 Naira</b> </p>
+                 <p><b>₦5,000 Naira</b> </p>
                 <br><br>
                  <div class="buy-container">
-                <button class="buy"><a href="payment.html">Buy Now</a></button>
+                <button class="buy">Buy Now</button>
               </div>
               </p>
             </div>
@@ -245,7 +246,7 @@
               <h3>Crayfish</h3>
               <p>
                 ForYouStore
-                <p><b>7,000 Naira</b></p>
+                <p><b>₦7,000 Naira</b></p>
           </p> <br><br>
                 <div class="buy-container">
                <button class="buy"><a href="payment.html">Buy Now</a></button>
@@ -256,7 +257,7 @@
           <div class="product">
             <img
               class="pimg"
-              src="assets\WhatsApp Image 2025-02-01 at 16.23.47_5d1e1531.jpg"
+              src="assets\WhatsApp Image 2025-02-01 at 16.23.46_568c0b7c.jpg"
               alt=""
             />
             <div class="text-product">
@@ -264,7 +265,7 @@
               <p>
                ForYouStore
                <div class="buy-dec-con">
-               <p class="buy-dec"><b>4,000 Naira</b></p>
+               <p class="buy-dec"><b>₦4,000 Naira</b></p>
               </div>
                <br><br>
               <div class="buy-container">
@@ -283,7 +284,7 @@
               <h3>Palm Oil</h3>
               <p>
                 ForYouStore
-                <p><b>2,000 Naira</b></p>
+                <p><b>₦2,000</b></p>
               </p> <br><br>
               <div class="buy-container">
              <button class="buy"><a href="payment.html">Buy Now</a></button>
@@ -372,9 +373,18 @@
   <!-- <section>
   </section> -->
 
+  <!-- BACK TO TO BOTTON -->
+<div class="back-b">
+  <button class="back"><a class="bt" href="#top"><b>^</b></a></button>
+</div>
+
+    
+
+    </main>
+
                       <!-- FOOTER -->
 
-    <footer class="bg-dark text-white text-center py-4 mt-5" id="foot">
+    <footer class="bg-dark text-white text-center py-4 mt-5" id="foot" style="padding-left: 8.5%;">
      
         <!-- <div class="row"> -->
           <!-- About Section -->
@@ -391,7 +401,7 @@
     
           <!-- Contact Info -->
           <div class="col-md-4">
-            <h5>Contact Us</h5>
+            <h5 id="contact">Contact Us</h5>
             <p>Email: <a class="email" href="mailto:Foryoumarketingservices@gmail.com">Foryoumarketingservices@gmail.com</a></p>
             <p>Phone: +2349019486794</p>
             <p>Location: Aba, Abia state, Nigeria</p>
@@ -408,9 +418,7 @@
     
       
     </footer>
-    
-
-    </main>
+  </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

@@ -1,11 +1,9 @@
 /* reset css */
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
 }
-
-
 
 /* navbar css */
 header {
@@ -62,14 +60,14 @@ nav button {
 }
 
 .product:hover {
-  border: 4px solid limegreen;
-  scale: 1.1;
+  border: 5px solid limegreen;
+  scale: 1.07;
 }
 
 .product:hover .buy {
-  scale: 1.1;
+  /* scale: 1.1; */
   opacity: 1;
-  background-color: mediumblue;
+  /* background-color: mediumblue; */
   color: white;
   animation: buy-button;
   animation-duration: 1.3s;
@@ -91,7 +89,6 @@ nav button {
     background-color: red;
   }
 }
-
 
 .pimg {
   width: 100%;
@@ -144,7 +141,7 @@ ul.custom-list li::before {
 }
 
 #services:hover {
-  background-color: rgb(2, 163, 2);
+  background-color: rgba(2, 163, 2, 0.603);
 }
 
 #services img {
@@ -171,8 +168,6 @@ ul.custom-list li::before {
   background-color: limegreen;
 }
 
-
-
 #about {
   color: rgba(10, 10, 10, 0.966);
   display: flex;
@@ -192,8 +187,6 @@ ul.custom-list li::before {
   padding-top: 130px;
 }
 
-
-
 .firstlogo {
   display: flex;
   justify-content: center;
@@ -210,7 +203,7 @@ ul.custom-list li::before {
   margin-bottom: 40px;
 }
 
-#forYou{
+#forYou {
   background-color: limegreen;
   margin-right: 20%;
   margin-left: 20%;
@@ -218,11 +211,160 @@ ul.custom-list li::before {
   padding: 3%;
   margin-top: 3%;
   border-radius: 20px;
-} 
+}
 
+outside styling
+.body {
+    margin-right: auto;
+    margin-left: auto;
+background-color: green;
+}
+
+.intro {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.7rem;
+    text-align: center;
+    color: white; margin-bottom: -5%;
+    
+}
+
+.Amount {
+    display: grid;
+}
+/* Responsive Styling */
+.purchase1 {
+  max-width: 50%;
+  width: 100%;
+  margin: auto;
+  background-color: limegreen;
+  display: grid;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+}
+
+/* Content Styling */
+.content2 {
+  max-width: 90%;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Form Labels and Headers */
+label, h2 {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Input Fields */
+input {
+  font-size: 1.1rem;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit Button */
+#mySubmit {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#mySubmit a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* Hover Effect */
+#mySubmit:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  .purchase1 {
+      max-width: 80%;
+  }
+
+  label, h2 {
+      font-size: 1.4rem;
+  }
+
+  #mySubmit {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .purchase1 {
+      max-width: 95%;
+      padding: 15px;
+  }
+
+  label, h2 {
+      font-size: 1.2rem;
+  }
+
+  #mySubmit {
+      font-size: 0.9rem;
+  }
+}
+
+
+.last:single-button {
+    padding: 20%;
+    border: 8px solid black;
+    margin-right: 10%;
+    margin-left: -5%;
+    background-color: limegreen;
+    scale: 0.70;
+    text-align: center;
+    /* display: none; */
+}
+
+
+#countRad {
+    margin-left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15rem;
+}
+
+#containerBtn {
+    margin-left: 37%;
+    justify-content: space-evenly;
+}
+
+.myBtn {
+    /* scale: 1.5; */
+    font-size: 1.5em;
+    padding: 20px 20px;
+    color: white;
+    background-color: blue;
+    border: 3px solid rgb(32, 31, 31);
+}
+.myBtn:hover {
+    background-color: limegreen;
+}
 
 .buy {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -240,6 +382,7 @@ ul.custom-list li::before {
 
 .buy-container {
   margin-left: 60%;
+  margin-top: -25%;
 }
 
 .email {
@@ -252,8 +395,8 @@ ul.custom-list li::before {
 }
 /* Reset */
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
 }
 
@@ -316,6 +459,7 @@ nav button {
   max-width: 360px;
   height: auto;
   border-radius: 20px;
+  scale: 0.90;
   transition: all 0.3s ease-in-out;
 }
 
@@ -341,9 +485,9 @@ nav button {
 /* Buy Button Animation */
 .buy {
   font-family: Impact, sans-serif;
-  padding: 10px 15px;
+  padding: 7px 7px;
   border-radius: 10px;
-  scale: 1;
+  /* scale: 1; */
   color: white;
   opacity: 0;
   transition: 0.3s ease-in-out;
@@ -351,13 +495,30 @@ nav button {
 
 .product:hover .buy {
   opacity: 1;
-  background-color: mediumblue;
+  /* background-color: mediumblue; */
 }
 
 @keyframes buy-button {
-  0% { background-color: limegreen; }
-  50% { background-color: yellow; }
-  100% { background-color: red; }
+  0% {
+    background-color: limegreen;
+    scale: 1;
+  }
+
+  25% {
+    background-color: limegreen;
+  }
+
+  50% {
+    background-color: rgb(0, 0, 255);
+    scale: 1.2;
+
+  }
+  100% {
+    background-color: red;
+    scale: 1;
+  }
+  
+  
 }
 
 /* Footer */
@@ -422,16 +583,60 @@ nav button {
   padding-top: 50px;
 }
 
+.back-b {
+  padding: 80px;
+  margin: -3.5%;
+  opacity: 0;
+}
+
+.back-b:hover {
+  padding: 80px;
+  margin: -3.5%;
+  opacity: 1;
+}
+
+.back {
+  margin-left: 90%;
+  margin-right: 7%;
+  background-color: limegreen;
+  scale: 1.5;
+  border-radius: 5px;
+  animation-name: back;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 30ms;
+  animation-duration: 1s;
+}
+
+@keyframes back {
+  0% {
+    scale: 1.6;
+  }
+
+  50% {
+    scale: 2;
+}
+
+100% {
+  scale: 1.6;
+}
+}
+
+
+.bt {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
 /* Responsive Design */
 
 /* Mobile (max-width: 576px) */
 @media (max-width: 576px) {
-
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}  
+  * {
+    box-sizing: border-box;
+  }
 
   header {
     flex-direction: column;
@@ -442,28 +647,63 @@ nav button {
     height: 50vh;
   }
 
-  .product {
-    width: 100%;
-    scale: 0.90;
+  .box-container {
+    margin-top: -20%;
   }
+ 
+  .product {
+    width: 85.1%;
+    scale: 0.9;
+  }
+
+  .product-container {
+    margin-bottom: -5%;
+
+  }
+  
 
   #services {
     flex-direction: column;
     align-items: center;
-    padding: 0;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 5%;
+    width: 92%;
+    margin-left: 3.5%;
   }
 
+
+
   .buy-container {
-    margin-left: 0;
+    padding: 6px;
   }
+
+  .buy:hover{
+    scale: 0.80;
+  }
+
+  .back {
+    margin-right: -100px;
+    margin-left: 180px;
+  }
+
+  #myHead {
+    padding-top: 20%;
+    background-color: red;
+  }
+  
+  .back-b {
+    display: none;
+  }
+
 
   #forYou {
     margin: 10% auto;
+    margin-bottom: -15%;
+    margin-top: 15%;
     padding: 5%;
     width: 90%;
   }
-
-
 
   /* #about Mobile */
   #about {
