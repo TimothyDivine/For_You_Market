@@ -463,6 +463,10 @@ nav button {
   transition: all 0.3s ease-in-out;
 }
 
+.blog-text {
+  text-align: center;
+}
+
 .product:hover {
   border: 3px solid limegreen;
   /* transform: scale(1.05); */
