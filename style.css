@@ -188,19 +188,20 @@ ul.custom-list li::before {
 }
 
 .firstlogo {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
+  scale: 0.80;
+}
+
+.wlogo {
+  width: 80vh;
 }
 
 .text3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin-top: -10%;
   color: rgb(0, 79, 0);
-  margin-bottom: 40px;
 }
 
 #forYou {
@@ -291,6 +292,18 @@ input {
   font-size: 1.2rem;
 }
 
+.videos {
+  width: 70vw;
+ height: 70vh; 
+ margin-left: 12%;
+  margin-top: 10%;
+   box-shadow: 0 0 50px black;
+}
+
+.videos:hover {
+  outline: 15px solid limegreen;
+}
+
 /* Hover Effect */
 #mySubmit:hover {
   background-color: red;
@@ -310,7 +323,19 @@ input {
   #mySubmit {
       font-size: 1rem;
   }
+
+  .firstlogo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -30px;
+  }
+  
 }
+
+
+
 
 @media (max-width: 480px) {
   .purchase1 {
@@ -726,6 +751,11 @@ nav button {
 
   #about img {
     padding-top: 20px;
+  }
+
+  #foot {
+  justify-content: center;
+
   }
 }
 
