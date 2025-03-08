@@ -46,7 +46,7 @@ input {
   outline: none;
 }
 
-button {
+.buttonA {
   padding: 12px;
   background-color: #28a745;
   color: white;
@@ -54,10 +54,11 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 1rem;
-  transition: background 0.3s ease;
+  width: 100%;
+  transition: 0.3s ease;
 }
 
-button:hover {
+.buttonA:hover {
   background-color: #218838;
 }
 
@@ -71,9 +72,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
 
 #signup-container {
   display: none;

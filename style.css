@@ -12,6 +12,18 @@ header {
   gap: 1rem;
 }
 
+#ex:hover {
+  background-color: limegreen;
+  color: white;
+}
+
+.off-screen-menu {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  margin-top: -10%;
+}
+
 .carousel-inner img {
   height: 80vh;
   object-fit: cover;
@@ -60,8 +72,9 @@ nav button {
 }
 
 .product:hover {
-  border: 5px solid limegreen;
-  scale: 1.07;
+  /* border: 5px solid limegreen; */
+  scale: 1.03;
+  box-shadow: 0 0px 20px #0f0;
 }
 
 .product:hover .buy {
@@ -201,7 +214,7 @@ ul.custom-list li::before {
 
 .text3 {
   margin-top: -10%;
-  color: rgb(0, 79, 0);
+  color: rgb(11, 161, 11);
 }
 
 #forYou {
@@ -499,7 +512,7 @@ nav button {
 }
 
 .product:hover {
-  border: 3px solid limegreen;
+  /* border: 3px solid limegreen; */
   /* transform: scale(1.05); */
 }
 
@@ -863,4 +876,10 @@ nav button {
   #about .about-text {
     width: 50%;
   }
+}
+
+
+.lgbtn {
+  background-color: rgba(19, 185, 19, 0.918);
+  color: #fff;
 }

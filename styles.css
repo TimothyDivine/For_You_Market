@@ -24,6 +24,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.3);
 }
+.nav-link {
+}
 
 /* Responsive Text */
 h2 {
@@ -56,7 +58,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
-    transition: background 0.3s ease;
+    transition:  0.3s ease;
 }
 .btn {
     color: white;
